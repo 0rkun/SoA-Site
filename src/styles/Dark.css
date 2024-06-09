@@ -1,0 +1,32 @@
+.dark{
+    position: sticky;
+    bottom: 10px;
+}
+.light-mode{
+    background: white;
+    color: black;
+  }
+  .dark-mode{
+    background: black;
+    color: white;
+  }
+  .dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .light-mode .dark-mode-toggle svg{
+    font-size: 40px;
+    color: black;
+  }
+  .dark-mode .dark-mode-toggle svg{
+    font-size: 40px;
+    color: white;
+  }
+  
+  .MuiSvgIcon-root {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    transition: fill 0.3s ease;
+  }

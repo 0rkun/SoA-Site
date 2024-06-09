@@ -1,0 +1,22 @@
+.navbar{
+    background: #000;
+}
+.navbar .main {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar .main img{
+    height: 20vh;
+    background: #fff;
+    margin-top: 10px;
+}
+.navbar .main .mainlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .main .mainlink a{
+    text-decoration: none;
+    margin: 50px;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+.member h1{
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+}
+.membersInfo h2, h6{
+    text-align: center;
+    margin: 10px;
+}
+.membersInfo div{
+    height: 20vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    text-align: center;  
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.memberİnfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin: 10px;
+}
+.memberİnfo div{
+    margin: 10px;
+
+}
